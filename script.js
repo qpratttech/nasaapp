@@ -12,7 +12,6 @@ function loadImg() {
 			dateMonth = '0' + dateMonth;
 		}
 		var imageDate = date.getFullYear() + '-' + dateMonth + '-' + dateDay;
-		console.log(imageDate);
 		var incrementedIndex = index + 1;
 		$('#nasaImage').data('index',incrementedIndex);
 		var url = "https://api.nasa.gov/planetary/apod?date=" + imageDate + "&api_key=Eo6F0ZtdMR3lVPcXypYUwTWyZriorJgLS3ndVBSL";
